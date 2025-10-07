@@ -7,3 +7,6 @@ train_test_split
 KMeans
 cosine_similarity
 pickle
+scikit-learn
+
+
