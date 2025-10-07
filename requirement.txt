@@ -1,3 +1,4 @@
+streamlit
 pandas 
 numpy   
 matplotlib  
@@ -8,5 +9,6 @@ KMeans
 cosine_similarity
 pickle
 scikit-learn
+
 
 
