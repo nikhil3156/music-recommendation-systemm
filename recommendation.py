@@ -1,8 +1,8 @@
+from sklearn.metrics.pairwise import cosine_similarity
 import streamlit as st
 import pandas as pd
 import numpy as np
 import pickle
-from sklearn.metrics.pairwise import cosine_similarity
 
 # --- Page Configuration ---
 st.set_page_config(
@@ -112,3 +112,4 @@ if st.button("Recommend Me Songs!", key='recommend_button'):
 # Footer
 st.markdown("---")
 st.write("Created with ❤️ using Streamlit")
+
