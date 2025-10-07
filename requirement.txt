@@ -1,13 +1,6 @@
 streamlit
-pandas 
-numpy   
-matplotlib  
-seaborn   
-StandardScaler
-train_test_split
-KMeans
-cosine_similarity
-pickle
+pandas
+numpy
 scikit-learn
 
 
