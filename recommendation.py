@@ -1,7 +1,18 @@
+import subprocess
+import sys
+
+# 🔧 Force-install required packages at runtime (for Streamlit Cloud)
+subprocess.run([
+    sys.executable, "-m", "pip", "install",
+    "scikit-learn", "pandas", "numpy", "joblib"
+], check=True)
+
+import streamlit as st
 import pickle
 import pandas as pd
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
+
 # --- Page Configuration ---
 st.set_page_config(
     page_title="MeloMix Song Recommender",
@@ -110,5 +121,6 @@ if st.button("Recommend Me Songs!", key='recommend_button'):
 # Footer
 st.markdown("---")
 st.write("Created with ❤️ using Streamlit")
+
 
 
